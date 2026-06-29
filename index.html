@@ -297,13 +297,13 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     <div class="tab" onclick="showPage('kpi2')" id="tab-kpi2">KPI — Parque do Sol</div>
     <div class="tab" onclick="showPage('fin2')" id="tab-fin2">Medição Financeira — Parque do Sol</div>
     <div class="tab-sep"></div>
-    <div class="tab" onclick="showPage('proximas')">Próximas Ações</div>
+    <div class="tab active" onclick="showPage('proximas')">Próximas Ações</div>
     <div class="tab-sep"></div>
     <div class="tab" onclick="showPage('dados')">Inserir Dados</div>
     <div class="tab" onclick="showPage('textos')" style="color:#EF9F27">✏ Editar Textos</div>
   </div>
   <div class="nav-right" id="nav-date">dom., 28 de jun. de 2026</div>
-  <button onclick="salvarNoGitHub()" style="margin: 0px 14px; background: rgb(200, 216, 240); color: rgb(13, 27, 62); border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 6px; padding: 8px 20px; font-size: 15px; font-weight: 800; cursor: pointer; letter-spacing: 1px; transition: opacity 0.18s; opacity: 1;" onmouseover="this.style.opacity='.8'" onmouseout="this.style.opacity='1'">SALVAR</button>
+  <button onclick="salvarNoGitHub()" style="margin: 0px 14px; background: rgb(200, 216, 240); color: rgb(13, 27, 62); border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 6px; padding: 8px 20px; font-size: 15px; font-weight: 800; cursor: pointer; letter-spacing: 1px; transition: opacity 0.18s; opacity: 0.8;" onmouseover="this.style.opacity='.8'" onmouseout="this.style.opacity='1'">SALVAR</button>
 </nav>
 
 <!-- ══ CAPA ══ -->
@@ -453,7 +453,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
 </div>
 
 <!-- ══ STATUS EMPREENDIMENTO A ══ -->
-<div class="page active" id="page-status1">
+<div class="page" id="page-status1">
 <div class="pw">
   <div class="ph">
     <div class="ph-eye">02 · Status do Empreendimento</div>
@@ -539,7 +539,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1" role="img" aria-label="Montagem de laje" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Montagem de laje: 13/10.</canvas>
+        <canvas id="c1-1" role="img" aria-label="Montagem de laje" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Montagem de laje: 13/10.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:100%;background:#3B6D11"></div></div><div class="ev" style="">13/10</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/10</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/9</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/9</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -552,7 +552,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-2" role="img" aria-label="Concretagem de laje" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Concretagem de laje: 13/11.</canvas>
+        <canvas id="c1-2" role="img" aria-label="Concretagem de laje" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Concretagem de laje: 13/11.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:100%;background:#3B6D11"></div></div><div class="ev" style="">13/11</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/11</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/10</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/10</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -565,7 +565,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-3" role="img" aria-label="Esquadrias metálicas" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Esquadrias metálicas: 0/15.</canvas>
+        <canvas id="c1-3" role="img" aria-label="Esquadrias metálicas" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Esquadrias metálicas: 0/15.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:0%;background:#E24B4A"></div></div><div class="ev" style="">0/15</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/14</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/14</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/14</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -578,7 +578,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-4" role="img" aria-label="Esquadrias de madeira" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Esquadrias de madeira: 120/22.</canvas>
+        <canvas id="c1-4" role="img" aria-label="Esquadrias de madeira" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Esquadrias de madeira: 120/22.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:100%;background:#3B6D11"></div></div><div class="ev" style="">120/22</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/22</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/22</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/21</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -591,7 +591,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-5" role="img" aria-label="Estrutura para telhado" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Estrutura para telhado: 31/21.</canvas>
+        <canvas id="c1-5" role="img" aria-label="Estrutura para telhado" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Estrutura para telhado: 31/21.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:100%;background:#3B6D11"></div></div><div class="ev" style="">31/21</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/21</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/21</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/21</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -604,7 +604,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782153886008" role="img" aria-label="Telhamento" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Telhamento: 11/29.</canvas>
+        <canvas id="c1-1782153886008" role="img" aria-label="Telhamento" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Telhamento: 11/29.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:38%;background:#E24B4A"></div></div><div class="ev" style="">11/29</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/25</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/25</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/20</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -617,7 +617,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782153937856" role="img" aria-label="Gesso Liso" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Gesso Liso: 63/32.</canvas>
+        <canvas id="c1-1782153937856" role="img" aria-label="Gesso Liso" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Gesso Liso: 63/32.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:100%;background:#3B6D11"></div></div><div class="ev" style="">63/32</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/31</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/31</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/31</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -630,7 +630,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782154104015" role="img" aria-label="Regul. De Fachada" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Regul. De Fachada: 27/34.</canvas>
+        <canvas id="c1-1782154104015" role="img" aria-label="Regul. De Fachada" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Regul. De Fachada: 27/34.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:79%;background:#E24B4A"></div></div><div class="ev" style="">27/34</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/33</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/33</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/33</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -643,7 +643,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782154153231" role="img" aria-label="Cerâmica de Parede" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Cerâmica de Parede: 50/20.</canvas>
+        <canvas id="c1-1782154153231" role="img" aria-label="Cerâmica de Parede" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Cerâmica de Parede: 50/20.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:100%;background:#3B6D11"></div></div><div class="ev" style="">50/20</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/20</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/20</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/19</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -656,7 +656,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782154382054" role="img" aria-label="Rej. Cer. de Parede" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Rej. Cer. de Parede: 59/16.</canvas>
+        <canvas id="c1-1782154382054" role="img" aria-label="Rej. Cer. de Parede" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Rej. Cer. de Parede: 59/16.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:100%;background:#3B6D11"></div></div><div class="ev" style="">59/16</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/15</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/15</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/15</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -669,7 +669,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782154414966" role="img" aria-label="1ª Demão - Pintura interna" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">1ª Demão - Pintura interna: 0/8.</canvas>
+        <canvas id="c1-1782154414966" role="img" aria-label="1ª Demão - Pintura interna" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">1ª Demão - Pintura interna: 0/8.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:0%;background:#E24B4A"></div></div><div class="ev" style="">0/8</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/8</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/7</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/7</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -682,7 +682,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782154477790" role="img" aria-label="Contrapiso" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Contrapiso: 25/34.</canvas>
+        <canvas id="c1-1782154477790" role="img" aria-label="Contrapiso" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Contrapiso: 25/34.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:74%;background:#E24B4A"></div></div><div class="ev" style="">25/34</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/34</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/34</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/33</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -695,7 +695,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782154555654" role="img" aria-label="Cerâmica de Piso" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Cerâmica de Piso: 35/18.</canvas>
+        <canvas id="c1-1782154555654" role="img" aria-label="Cerâmica de Piso" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Cerâmica de Piso: 35/18.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:100%;background:#3B6D11"></div></div><div class="ev" style="">35/18</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/18</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/18</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/17</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -708,7 +708,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782154593526" role="img" aria-label="Rej. Cer. de Piso" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Rej. Cer. de Piso: 51/22.</canvas>
+        <canvas id="c1-1782154593526" role="img" aria-label="Rej. Cer. de Piso" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Rej. Cer. de Piso: 51/22.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:100%;background:#3B6D11"></div></div><div class="ev" style="">51/22</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/22</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/21</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/21</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -721,7 +721,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782154639725" role="img" aria-label="Peitoris" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Peitoris: 8/27.</canvas>
+        <canvas id="c1-1782154639725" role="img" aria-label="Peitoris" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Peitoris: 8/27.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:30%;background:#E24B4A"></div></div><div class="ev" style="">8/27</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/26</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/26</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/26</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -734,7 +734,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782155757844" role="img" aria-label="Soleiras" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Soleiras: 7/27.</canvas>
+        <canvas id="c1-1782155757844" role="img" aria-label="Soleiras" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Soleiras: 7/27.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:26%;background:#E24B4A"></div></div><div class="ev" style="">7/27</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/27</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/26</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/26</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -747,7 +747,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782155759210" role="img" aria-label="Rodapés" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Rodapés: 51/20.</canvas>
+        <canvas id="c1-1782155759210" role="img" aria-label="Rodapés" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Rodapés: 51/20.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:100%;background:#3B6D11"></div></div><div class="ev" style="">51/20</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/20</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/20</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/20</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -760,7 +760,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782155760089" role="img" aria-label="Elétricas - Paredes" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Elétricas - Paredes: 0/1.</canvas>
+        <canvas id="c1-1782155760089" role="img" aria-label="Elétricas - Paredes" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Elétricas - Paredes: 0/1.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:0%;background:#E24B4A"></div></div><div class="ev" style="">0/1</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -773,7 +773,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782155764025" role="img" aria-label="Elétricas - Lajes" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Elétricas - Lajes: 9/11.</canvas>
+        <canvas id="c1-1782155764025" role="img" aria-label="Elétricas - Lajes" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Elétricas - Lajes: 9/11.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:82%;background:#E24B4A"></div></div><div class="ev" style="">9/11</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/11</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/10</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/10</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -786,7 +786,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782155765666" role="img" aria-label="Hidráulicas  - Ligações domic." height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Hidráulicas  - Ligações domic.: 21/17.</canvas>
+        <canvas id="c1-1782155765666" role="img" aria-label="Hidráulicas  - Ligações domic." width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Hidráulicas  - Ligações domic.: 21/17.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:100%;background:#3B6D11"></div></div><div class="ev" style="">21/17</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/16</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/16</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/16</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -799,7 +799,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782155767185" role="img" aria-label="Hidráulicas  - Registros" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Hidráulicas  - Registros: 10/42.</canvas>
+        <canvas id="c1-1782155767185" role="img" aria-label="Hidráulicas  - Registros" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Hidráulicas  - Registros: 10/42.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:24%;background:#E24B4A"></div></div><div class="ev" style="">10/42</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/42</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/41</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/41</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -812,7 +812,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782155768306" role="img" aria-label="Hidráulicas  - Reservatório" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Hidráulicas  - Reservatório: 11/25.</canvas>
+        <canvas id="c1-1782155768306" role="img" aria-label="Hidráulicas  - Reservatório" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Hidráulicas  - Reservatório: 11/25.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:44%;background:#E24B4A"></div></div><div class="ev" style="">11/25</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/25</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/24</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/24</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -825,7 +825,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782155769586" role="img" aria-label="Sanitárias - Ligações Domic." height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Sanitárias - Ligações Domic.: 8/2.</canvas>
+        <canvas id="c1-1782155769586" role="img" aria-label="Sanitárias - Ligações Domic." width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Sanitárias - Ligações Domic.: 8/2.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:100%;background:#3B6D11"></div></div><div class="ev" style="">8/2</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/2</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/2</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/2</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -838,7 +838,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782156954750" role="img" aria-label="Outorga do Poço" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Outorga do Poço: 0/1.</canvas>
+        <canvas id="c1-1782156954750" role="img" aria-label="Outorga do Poço" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Outorga do Poço: 0/1.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:0%;background:#E24B4A"></div></div><div class="ev" style="">0/1</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -851,7 +851,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782157028238" role="img" aria-label="Rede de Incêndio - %" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Rede de Incêndio - %: 0/0,5.</canvas>
+        <canvas id="c1-1782157028238" role="img" aria-label="Rede de Incêndio - %" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Rede de Incêndio - %: 0/0,5.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:0%;background:#E24B4A"></div></div><div class="ev" style="">0/0,5</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0,5</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0,5</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0,5</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -864,7 +864,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782157146725" role="img" aria-label="Fossa e Sumidouro" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Fossa e Sumidouro: 0/4.</canvas>
+        <canvas id="c1-1782157146725" role="img" aria-label="Fossa e Sumidouro" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Fossa e Sumidouro: 0/4.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:0%;background:#E24B4A"></div></div><div class="ev" style="">0/4</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/4</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/4</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/3</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
@@ -877,14 +877,14 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div>
     <div class="ab">
       <div style="position:relative;width:100%;height:130px;margin-bottom:10px">
-        <canvas id="c1-1782157750475" role="img" aria-label="Biclioteca - Até Superestrutra" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Biclioteca - Até Superestrutra: 0/1.</canvas>
+        <canvas id="c1-1782157750475" role="img" aria-label="Biclioteca - Até Superestrutra" width="271" height="130" style="display: block; box-sizing: border-box; height: 130px; width: 271px;">Biclioteca - Até Superestrutra: 0/1.</canvas>
       </div>
       <div class="er"><div class="el" style="">Sem 1</div><div class="et"><div class="ef2" style="width:0%;background:#E24B4A"></div></div><div class="ev" style="">0/1</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 2</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/1</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 3</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/1</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 4</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/1</div></div><div class="er"><div class="el" style="color:#c8d8f0">Sem 5</div><div class="et"><div class="ef2" style="width:0%;background:#c8d8f0"></div></div><div class="ev" style="color:#c8d8f0">0/0</div></div>
     </div>
   </div></div>
   <div class="sc" style="margin-top:16px">
     <h3><span class="left"><span class="dot"></span>Comparativo geral — <span class="sn1-label">Empreendimento</span></span></h3>
-    <div style="position:relative;width:100%;height:230px"><canvas id="gc1" role="img" aria-label="Comparativo Empreendimento" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Planejado vs realizado Empreendimento.</canvas></div>
+    <div style="position:relative;width:100%;height:230px"><canvas id="gc1" role="img" aria-label="Comparativo Empreendimento" style="box-sizing: border-box; display: block; height: 230px; width: 1188px;" width="1188" height="230">Planejado vs realizado Empreendimento.</canvas></div>
     <div style="display:flex;gap:14px;margin-top:9px;font-size:12px;color:var(--muted)">
       <span style="display:flex;align-items:center;gap:4px"><span style="width:10px;height:10px;border-radius:2px;background:#D3D1C7;display:inline-block"></span>Planejado</span>
       <span style="display:flex;align-items:center;gap:4px"><span style="width:10px;height:10px;border-radius:2px;background:#0D1B3E;display:inline-block"></span>Realizado</span>
@@ -1221,11 +1221,11 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     </div></div></div>
   <div class="sc">
     <h3><span class="left"><span class="dot"></span><span class="sc-te" contenteditable="true">Preço por UH — </span><span class="sn1-label">Empreendimento</span></span></h3>
-    <div style="position:relative;width:100%;height:220px"><canvas id="fsc1" role="img" aria-label="Faturamento semanal Empreendimento" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Faturamento semanal Empreendimento.</canvas></div>
+    <div style="position:relative;width:100%;height:220px"><canvas id="fsc1" role="img" aria-label="Faturamento semanal Empreendimento" style="box-sizing: border-box; display: block; height: 220px; width: 1188px;" width="1188" height="220">Faturamento semanal Empreendimento.</canvas></div>
   </div>
   <div class="sc">
     <h3><span class="left"><span class="dot"></span><span class="sc-te" contenteditable="true">Medição semanal — </span><span class="sn1-label">Empreendimento</span></span></h3>
-    <div style="position:relative;width:100%;height:200px"><canvas id="fac1" role="img" aria-label="Faturamento por atividade Empreendimento" height="0" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" width="0">Faturamento por atividade Empreendimento.</canvas></div>
+    <div style="position:relative;width:100%;height:200px"><canvas id="fac1" role="img" aria-label="Faturamento por atividade Empreendimento" style="box-sizing: border-box; display: block; height: 200px; width: 1188px;" width="1188" height="200">Faturamento por atividade Empreendimento.</canvas></div>
   </div>
   <div class="sc">
     <h3><span class="left"><span class="dot"></span><span class="sc-te" contenteditable="true">Medição por atividade — </span><span class="sn1-label">Empreendimento</span></span></h3>
@@ -2434,7 +2434,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
 </div>
 
 <!-- ══ PRÓXIMAS AÇÕES ══ -->
-<div class="page" id="page-proximas">
+<div class="page active" id="page-proximas">
 <div class="pw">
   <div class="ph">
     <div class="ph-eye">08 · Planejamento</div>
@@ -2449,31 +2449,7 @@ nav{background:var(--navy);display:flex;align-items:center;border-bottom:1px sol
     <div style="overflow-x:auto">
       <table class="at">
         <thead><tr><th>#</th><th>O que fazer</th><th>Responsável</th><th>Empreendimento</th><th>Prazo</th><th></th></tr></thead>
-        <tbody id="acoes-body">
-    <tr>
-      <td style="color:var(--muted);font-size:11px;font-weight:700;width:26px;text-align:center">1</td>
-      <td><input style="width:100%" placeholder="O que fazer..." value="Fechar concorrência do Reservatório de Concreto com forma deslizante" oninput="ACOES[0].oque=this.value"></td>
-      <td style="width:140px"><input placeholder="Nome..." value="Leomácio Arrais" oninput="ACOES[0].quem=this.value"></td>
-      <td style="width:130px"><input placeholder="Obra..." value="M Belo e PQ Sol" oninput="ACOES[0].obra=this.value"></td>
-      <td style="width:110px"><input placeholder="dd/mm/aaaa" value="23/06/2026" oninput="ACOES[0].prazo=this.value"></td>
-      <td style="width:28px"><button class="rm" onclick="ACOES.splice(0,1);renderAcoes()">✕</button></td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted);font-size:11px;font-weight:700;width:26px;text-align:center">2</td>
-      <td><input style="width:100%" placeholder="O que fazer..." value="Contratar empresa para estudo hidrológico da contribuação do material da ETE" oninput="ACOES[1].oque=this.value"></td>
-      <td style="width:140px"><input placeholder="Nome..." value="Emanuelle Aráujo" oninput="ACOES[1].quem=this.value"></td>
-      <td style="width:130px"><input placeholder="Obra..." value="Parque do Sol" oninput="ACOES[1].obra=this.value"></td>
-      <td style="width:110px"><input placeholder="dd/mm/aaaa" value="24/06/2026" oninput="ACOES[1].prazo=this.value"></td>
-      <td style="width:28px"><button class="rm" onclick="ACOES.splice(1,1);renderAcoes()">✕</button></td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted);font-size:11px;font-weight:700;width:26px;text-align:center">3</td>
-      <td><input style="width:100%" placeholder="O que fazer..." value="Finalizar reabertura de concorrência de esquadrias metálicas" oninput="ACOES[2].oque=this.value"></td>
-      <td style="width:140px"><input placeholder="Nome..." value="Leomácio e Luhana" oninput="ACOES[2].quem=this.value"></td>
-      <td style="width:130px"><input placeholder="Obra..." value="Parque do Sol" oninput="ACOES[2].obra=this.value"></td>
-      <td style="width:110px"><input placeholder="dd/mm/aaaa" value="25/06/2026" oninput="ACOES[2].prazo=this.value"></td>
-      <td style="width:28px"><button class="rm" onclick="ACOES.splice(2,1);renderAcoes()">✕</button></td>
-    </tr></tbody>
+        <tbody id="acoes-body"></tbody>
       </table>
     </div>
   </div>
